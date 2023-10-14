@@ -1,0 +1,19 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(92, 181, 208);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center; 
+    ;
+    
+  }
+
+  .links > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-color)
+  
+  }

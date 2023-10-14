@@ -1,0 +1,38 @@
+:root{
+ --primary-color: rgb(60, 54, 54);}
+
+ .li_projects{
+display: flex;
+flex-direction: row;
+padding-bottom: 3rem; 
+
+
+} 
+.li_projects  div{
+    width: 100%;
+}
+
+.text{
+    color: var(--primary-color);
+}
+.icon-project{
+
+   max-height: 15rem;
+    max-width: 15rem;
+} 
+.icon-project >img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 680px){
+.li_projects{
+    display:list-item;
+
+}
+.li_projects > figure{
+    padding: 20px 0px;
+}
+
+}
