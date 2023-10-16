@@ -1,9 +1,9 @@
 import './style.css'
 import './navbar.css'
 
-import { home } from './home/Home'
-import { projects } from './Projects/Projects'
-import { experience } from './Experience/Experience'
+import { home } from './Home'
+import { projects } from './Projects'
+import { experience } from './Experience'
 
 
 const divForContent = document.querySelector(".content")

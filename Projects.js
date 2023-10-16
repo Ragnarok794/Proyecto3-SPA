@@ -1,6 +1,7 @@
 import './proyectos.css'
 import { proyectos } from './constant'
 
+
 export const projects = () =>{
 const divForContent = document.querySelector(".content")
 const ulProjects = document.createElement('ul')

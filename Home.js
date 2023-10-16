@@ -9,7 +9,7 @@ divLeft.className = 'divleft'
 divForContent.appendChild(divLeft)
 
 const photoPerfil =` <div>
-<div class="photo"><img src="./assets/perfil/foto_perfil.jpg"></div></div>`
+<div class="photo"><img src="./foto_perfil.jpg"></div></div>`
 
  const information = 
 `<div class="text">
