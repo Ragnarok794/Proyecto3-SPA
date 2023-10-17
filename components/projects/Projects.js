@@ -1,5 +1,5 @@
 import './proyectos.css'
-import { proyectos } from './constant'
+import { proyectos } from '../../constant'
 
 
 export const projects = () =>{

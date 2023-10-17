@@ -1,4 +1,4 @@
-import { experienciaLaboral } from "./constant";
+import { experienciaLaboral } from "../../constant";
 import "./experience.css"
 
 export const experience =() =>{

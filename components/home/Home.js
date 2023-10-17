@@ -1,5 +1,5 @@
-import { ulSkill } from "./functions";
-import { ulRRSS } from "./functions"
+import { ulSkill } from "../../functions";
+import { ulRRSS } from "../../functions"
 import './home.css'
 export const home = ()=>{
 
