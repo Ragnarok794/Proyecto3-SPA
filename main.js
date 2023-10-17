@@ -3,7 +3,7 @@ import './navbar.css'
 
 import { home } from './components/home/Home'
 import { projects } from './components/projects/Projects'
-import { experience } from './components/experience/Experience'
+import { experience, experience } from './components/experience/Experience'
 
 
 const divForContent = document.querySelector(".content")
@@ -28,6 +28,9 @@ element.addEventListener('click', (ev) => {
 ) 
 }
 )
+const home = home()
+const projects = projects()
+const experience = experience()
 
 home()
 
