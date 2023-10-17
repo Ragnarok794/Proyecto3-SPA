@@ -3,35 +3,60 @@ import './navbar.css'
 
 import { home } from './components/home/Home'
 import { projects } from './components/projects/Projects'
-import { experience, experience } from './components/experience/Experience'
+import { experience} from './components/experience/Experience'
 
 
 const divForContent = document.querySelector(".content")
 
-
-
-const links = document.querySelectorAll('.navbarSection')
-links.forEach(element => {
-element.addEventListener('click', (ev) => {
+document.querySelector('.home').addEventListener('click', (ev) => {
     ev.preventDefault(); 
-    const classes = [ 'home', 'projects', 'experience'];
-    for (let i = 0; i < classes.length; i++) {
-        if (ev.target.classList.contains(classes[i])) {
-            divForContent.innerHTML = null
-           const toRender =  eval(classes[i])
-           toRender()
-        }
-    const linkHref = element.href;
+     divForContent.innerHTML = null
+            home()
+        const linkHref = element.href;
     console.log('El link apunta a:', linkHref );
    }
-}
-) 
-}
 )
-const home = home()
-const projects = projects()
-const experience = experience()
-
+document.querySelector('.projects').addEventListener('click', (ev) => {
+    ev.preventDefault(); 
+     divForContent.innerHTML = null
+            projects()
+        const linkHref = element.href;
+    console.log('El link apunta a:', linkHref );
+   }
+)
+document.querySelector('.experience').addEventListener('click', (ev) => {
+    ev.preventDefault(); 
+     divForContent.innerHTML = null
+            experience()
+        const linkHref = element.href;
+    console.log('El link apunta a:', linkHref );
+   }
+)
 home()
+
+
+
+
+// Esto es lo que intente hacer para reducir el codigo pero me daba error en netify
+// const links = document.querySelectorAll('.navbarSection')
+// links.forEach(element => {
+// element.addEventListener('click', (ev) => {
+//     ev.preventDefault(); 
+//     const classes = [ 'home', 'projects', 'experience'];
+//     for (let i = 0; i < classes.length; i++) {
+//         if (ev.target.classList.contains(classes[i])) {
+//             divForContent.innerHTML = null
+//            const toRender =  eval(classes[i])
+//            toRender()
+//         }
+//     const linkHref = element.href;
+//     console.log('El link apunta a:', linkHref );
+//    }
+// }
+// ) 
+// }
+// )
+
+
 
 
