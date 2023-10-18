@@ -1,8 +1,12 @@
 footer{
     background-color: rgb(92, 181, 208);
+    /* position:absolute;
+    bottom: 0;
+    width: 100%;
+   min-height: 4rem; */
 }
 .RRSS_container{
-  
+   
     display: flex;
     flex-wrap: wrap;
 }

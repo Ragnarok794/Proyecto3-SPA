@@ -1,8 +1,9 @@
 .content{
-   
+  
+   min-height: 84vh;
     display: flex;
-    flex-direction: wrap
-    
+    flex-direction: wrap;
+  
   }
   .divleft{
     max-width: 35rem;
@@ -20,10 +21,11 @@
     width: 100%;
     object-fit:contain;
     border-radius: 100%   }
-  .text{
+  .text_home{
     color: var(--primary-color);
     width: auto;
     margin-right: 10px;
+   
   }
 
 
