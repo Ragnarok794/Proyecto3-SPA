@@ -25,22 +25,7 @@
     width: auto;
     margin-right: 10px;
   }
-.li_RRSS{
-  margin-left: 7rem;
-}
 
-.icon{
-    height: 3rem;
-    width: 3rem;
-    margin-right: 3rem;
-  }
-.links_RRSS{
-    
-    display: inline-flex;
-    text-decoration: none;
-    cursor: pointer;
-    color : var(--primary-color);
-  }
 
 @media screen and (max-width: 1000px){
 
@@ -51,29 +36,16 @@
 .text{
   min-width: 50%;
 }
-.icon{
-  width: 30px;
-  height:  30px;
-}
 
-.li_RRSS{
-  display: flex;
-  flex-direction: wrap;
- 
-  }}
+  }
 @media screen and (max-width: 860px){
 
-.links_RRSS >h4{
-  display: none;
-}
+
 .photo{
   justify-content: center;
   margin: 20px 5px 50px;
   padding-right: 10px;
 }
-.li_RRSS{
-  justify-content: center;
-  margin: 20px 0px;
-}
+
 
 }

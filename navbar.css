@@ -17,3 +17,23 @@
     color: var(--primary-color)
   
   }
+  
+  .img-navbar{
+
+    display: none;
+  }
+  @media  screen and (max-width: 500px){
+    
+  
+  .links >a >p{
+    display:none
+
+  }
+  .img-navbar{
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
+
+
+}

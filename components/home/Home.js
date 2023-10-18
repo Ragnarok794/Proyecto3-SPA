@@ -1,5 +1,5 @@
 import { ulSkill } from "../../functions";
-import { ulRRSS } from "../../functions"
+
 import './home.css'
 export const home = ()=>{
 
@@ -22,23 +22,13 @@ const photoPerfil =` <div>
   </ul>
 </div>`;
 
-const RRSS = `<div class="RRSS_container">${ulRRSS}</div>`
+
 
 
 
 
   divLeft.innerHTML += photoPerfil
-  divLeft.innerHTML += RRSS 
+  
   divForContent.innerHTML += information
 
- const linksOfRRSS = document.querySelectorAll('.li_RRSS > a')
- linksOfRRSS.forEach(element=> {
-   element.addEventListener('click', (ev) => {
-    
-    ev.preventDefault(); 
-    const linkHref = element.href
-
-    console.log('El link apunta a:', linkHref );
-    })})
-
-  }
+}

@@ -1,16 +1,19 @@
 export const RRSS =[
   {icon : './correo.png',
-  text: 'Adriandeveloper@gmail.com',
+  text: 'Adriandeveloper@mailinvented.com',
   link: "link_inventado"},
   {icon : './instagram.png',
-  text: 'Adri_Fullstack_dev',
+  text: 'Adri_Fullstack_ig_invented',
   link:  "link_inventado"},
   {icon : './twitter.png' ,
-   text: 'Adri_Fullstack_dev',
+   text: 'Adri_Fullstack_tw_invented',
    link:  "link_inventado"},
   {icon : './whatsapp.png',
    text: '6635630445',
   link:  "link_inventado"},
+  {icon : './github.png',
+  text: 'Ragnarok794',
+ link:  "https://github.com/Ragnarok794"},
 ]
 
 export const skills = [
@@ -37,7 +40,7 @@ export const skills = [
    text: 'Mi primera landing, inspirandome en una web ya existente, hecha puramente con CSS y Html',
    link:  "https://landing-my-first-proyect.netlify.app"},
    {icon : './filter.png' ,
-    text: 'Basandome en el proyecto de landing ya usando js, incorporo unos filtos de productos funcionales',
+    text: 'Basandome en el proyecto de landing ya usando js, incorporo unos filtros de productos funcionales',
     link:  "https://filter-working.netlify.app"},
    {icon : './carrousel.png',
     text: 'Un ejemplo funcional de un carrusel de imagenes',
